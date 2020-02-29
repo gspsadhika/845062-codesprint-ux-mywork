@@ -1,0 +1,15 @@
+My associate id:
+845059
+Other team members:
+845062, 845113, 845061, 845062
+Team lead:
+845059
+My Role in team:
+1. Implement Angular validation for place order form
+2. Final integration of project
+3. create directives
+My development files:
+1. placeorder.component.ts
+2. goto-next-field.directive.ts
+3. only-one-digit.directive.ts
+4. custom.validator.ts

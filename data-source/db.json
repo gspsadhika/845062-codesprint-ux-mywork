@@ -1,0 +1,41 @@
+{
+  "orders": [
+    {
+      "id": 1,
+      "amountINR": 100,
+      "amountPaise": 44,
+      "rFirstName": "Abdus",
+      "rLastName": "Saboor",
+      "address": "Street - 3",
+      "city": "Hyd",
+      "state": "Telangana",
+      "country": "India",
+      "pincode": 500068,
+      "bFirstName": "Sadhika",
+      "bLastName": "G",
+      "phoneNumber": {
+        "code": "+91",
+        "digit1": 6,
+        "digit2": 6,
+        "digit3": 6,
+        "digit4": 6,
+        "digit5": 6,
+        "digit6": 6,
+        "digit7": 6,
+        "digit8": 4,
+        "digit9": 5,
+        "digit10": 9
+      },
+      "email": "gaffari98@gmail.com"
+    }
+  ],
+  "contacts": [
+    {
+      "id": 1,
+      "firstname": "Abdus",
+      "lastname": "Saboor",
+      "email": "gaffari98@gmail.com",
+      "message": "Nil"
+    }
+  ]
+}

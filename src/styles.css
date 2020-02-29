@@ -1,0 +1,47 @@
+/* You can add global styles to this file, and also import other style files */
+.ng-invalid.ng-touched:not(form) {
+  border: 1px solid var(--danger);
+}
+
+.ng-valid.ng-touched:not(form) {
+  border: 1px solid var(--success);
+}
+
+body {
+  background: #fbfbfd;
+}
+
+.banner {
+  background-image: url("./assets/cherry-blossoms-2218781_1920.jpg");
+  background-position: 0px 75%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 0%;
+  color: rgb(236, 58, 117);
+  text-shadow: white 0.2em 0.2em 0.2em;
+  margin-left: 0%;
+  margin-right: 0%;
+}
+.navbar {
+  margin-bottom: 1;
+  background-color: lightpink;
+  text-decoration: rgb(128, 66, 187);
+}
+.carousel-img {
+  max-height: 300px;
+  object-fit: cover;
+}
+.nav-link {
+  color: purple;
+}
+.text-purple {
+  color: purple;
+}
+.logo {
+  width: 15vw;
+}
+
+.router-link-active{
+  color: rgb(206, 96, 240);
+  text-shadow: black 0.2px 0.2px;
+}

@@ -1,0 +1,25 @@
+<div class="table-responsive">
+    <p class="h4 text-center">LIST OF USERS WHO GAVE FEEDBACK</p>
+    <table class="table table-hover">
+        <thead>
+            <tr>
+                <td>#</td>
+                <td>First Name</td>
+                <td>Last Name</td>
+                <td>Email</td>
+                <td>ACTIONS</td>
+            </tr>
+        </thead>
+        <tr *ngFor="let contact of contacts">
+            <td>{{contact.id}}</td>
+            <td>{{contact.firstname}}</td>
+            <td>{{contact.lastname}}</td>
+            <td>{{contact.email}}</td>
+            <td>{{contact.message}}</td>
+            <td><button class="btn btn-danger" (click)="deleteContact(contact.id)">DELETE</button></td>
+            <td><button class="btn btn-warning" (click)="updateContact()">UPDATE</button></td>
+
+        </tr>
+    </table>
+
+</div>

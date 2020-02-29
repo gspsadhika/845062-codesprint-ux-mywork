@@ -1,0 +1,32 @@
+<main>
+    <h2 class="display-4 my-5 text-purple">Leave a feedback</h2>
+    <div class="container contact-pg border">
+        <div class="row">
+            <div class="col-md-3 contact d-none d-md-block">
+                <div class="">
+                    <h4> Hope you had a great experience!</h4>
+                    <p>Please feel free to leave a feedback on us anytime!</p>
+                </div>
+            </div>
+            <div class="col-md-8">
+                <form [formGroup]="contactForm" novalidate class="form-group p-3">
+                    <div class="container">
+                        <label for="firstname" class="form-control-label"><b>First Name</b></label>
+                        <input type="text" class="form-control" formControlName="firstname" id="firstname"
+                            placeholder="Enter your first name" name="firstname">
+                        <label for="lastname" class="form-control-label"><b>Last Name</b></label>
+                        <input type="text" class="form-control" formControlName="lastname" id="lastname"
+                            placeholder="Enter your last name" name="lastname">
+                        <label for="email" class="form-control-label"><b>Email</b></label>
+                        <input type="text" class="form-control" formControlName="email" id="email"
+                            placeholder="Email Address" name="email">
+                        <label for="message" class="form-control-label"><b>Message</b></label>
+                        <textarea class="form-control" id="message" formControlName="message" id="message"
+                            placeholder="We would love to hear your feedback!" name="message"></textarea>
+                        <button (click)="addContact()" class="btn btn-danger btn-block" [disabled]="!contactForm.valid">Submit</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</main>
